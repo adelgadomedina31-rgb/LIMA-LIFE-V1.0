@@ -1,0 +1,21 @@
+# Archivos que Ren'Py genera solo
+*.rpyc
+*.rpymc
+*.rpyb
+game/cache/
+game/saves/
+log.txt
+errors.txt
+traceback.txt
+lint.txt
+
+# Builds
+*.apk
+*.aab
+bin/
+*-dists/
+
+# Llaves de firma de Android: guárdalas aparte, NUNCA en el repositorio
+*.keystore
+android.keystore
+bundle.keystore
